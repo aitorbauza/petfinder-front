@@ -7,7 +7,7 @@ import { styles } from "../styles/headerStyles";
 interface HeaderProps {
   style?: React.CSSProperties;
 }
-
+// hola
 const Header: React.FC<HeaderProps> = ({ style }) => {
   const { setUser } = useContext(UserContext);
   const navigate = useNavigate();
